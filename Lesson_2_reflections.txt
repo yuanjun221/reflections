@@ -18,3 +18,7 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
     当你需要添加一个试验性的功能或者做实验性质的修改时，可以使用分支。这样原有的版本
     仍然保留。在实验完毕后，你可以随时返回到原有的版本进行其它操作。
+
+How do the diagrams help you visualize the branch structure?
+    图表能直观地从最初的commit延伸到最末端，通过图表可以直观地看到各节点的关系，如一个
+    节点是由哪个节点派生出的，是否处在某分支上。
