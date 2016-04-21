@@ -1,3 +1,9 @@
 What happens when you initialize a repository? Why do you need to do it?
     初始化后，会在repository下创建.git文件夹，用来保存版本信息。这样做，可以使用
     git来进行版本控制
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+    staging area就像一个缓冲区，是准备提交commit到repository的缓冲区域。repository
+    则是存储着已经提交的commit。而directory仅仅是文件目录。
+    它具有跟踪文件动态的功能。能辨别文件是否更改
