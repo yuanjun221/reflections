@@ -6,4 +6,10 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
     staging area就像一个缓冲区，是准备提交commit到repository的缓冲区域。repository
     则是存储着已经提交的commit。而directory仅仅是文件目录。
-    它具有跟踪文件动态的功能。能辨别文件是否更改
+    它具有跟踪文件动态的功能，能辨别文件是否更改。
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+    比如一个项目有多个文件，一个逻辑上的改变可能涉及到不止一个文件的修改。把这个逻辑的
+    所有改动都add到staging area后，再进行commit，即可保证一个commit对应一个逻辑修
+    改。
