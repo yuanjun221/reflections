@@ -26,3 +26,12 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
     会把两个分支上的修改融合到一起。使用图表来展现融合，能够直观地显示融合操作的目的和方法。
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+    自动融合
+      优点：如果有冲突会警告，避免出现错误
+      缺点：出现冲突需要手动调试
+    手动融合
+      优点：可以控制想要融合的部分
+      缺点：可能会出现冲突
