@@ -22,3 +22,7 @@ organized? How would branches help?
 How do the diagrams help you visualize the branch structure?
     图表能直观地从最初的commit延伸到最末端，通过图表可以直观地看到各节点的关系，如一个
     节点是由哪个节点派生出的，是否处在某分支上。
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+    会把两个分支上的修改融合到一起。使用图表来展现融合，能够直观地显示融合操作的目的和方法。
