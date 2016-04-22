@@ -1,0 +1,43 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+    原文件中并不存在bug，因此bug只存在于新文件中发生修改的位置。通过比较两个文件的不同，
+    可以缩小bug所在的范围，进而缩短查找bug的时间。
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+    能够访问一个项目进程中的历史文档，可以快速厘清项目进展的关键节点，能够轻易地获得某个
+    功能的区间。也方便快速排查可能出现的bug。
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    手动版本控制
+        优点：能够按照逻辑操作来提交一个commit。因为一个逻辑操作可能包含着多个文件的操作，
+             而这些文件可能互有关联。
+        缺点：如果不遵守提交commit的一些规则，可能会造成提交的commit过大或过小的问题。
+             也有可能面临修改未提及造成丢失的问题。
+    自动版本控制
+        优点：一般情况不会发生文件丢失。系统会自动保存，自动维护版本。
+        缺点：文档的保存是独立发生的，没有办法和其它文件做对应的关联。保存机制比较死板，
+             保存的节点可能只是基于固定时间间隔，或者操作次数。不一定有逻辑可循。
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+    Git针对的更多的是程序源代码文件。这些文件可能互有关联。比如一个实现文件可能会引用数个
+    头文件。因此对于一组相关的文件，如果发生了相关联的修改，体现在一个逻辑的commit中是必
+    要的。
+    Google Docs针对的主要是文档。这类文件通常单独存在，不需要调用其它文件。因此没有必要
+    做多文件的关联。
+
+How can you use the commands git log and git diff to view the history of files?
+    git log用来显示一个branch中的commits
+    git diff commit1 commit2 来显示两个commit间的差异
+
+How might using version control make you more confident to make changes that
+could break something?
+    使用了版本控制，如果每次的commit都基于合理的逻辑操作。及时修改文件造成了功能破坏或者
+    严重bug，可以通过commit快速恢复到初始状态。因此无须担心对文件造成不可逆的操作。
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    I should consider using Git to control my project and manage the files
+    in it, say, when I trying to build an iOS app.
