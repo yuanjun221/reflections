@@ -1,2 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
     使用远程仓库，可以在不同计算机上传递仓库，提交commit，并允许管理不同开发者来共同合作同一项目。
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+    因为pull和push针对的是branch。当我不需要一个远程branch的时候，我并不需要它随时和本地的Git
+    保持同步，只在需要时pull即可。
