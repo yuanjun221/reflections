@@ -5,8 +5,8 @@ local?
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
-    因为pull和push针对的是branch。当我不需要一个远程branch的时候，我并不需要它随时和本地的Git
-    保持同步，只在需要时pull即可。
+    因为pull和push针对的是branch。当我不需要一个远程branch的时候，我并不需要它随时和本地的
+    Git保持同步，只在需要时pull即可。
 
 Describe the differences between forks, clones, and branches. When would you use
 one instead of another?
@@ -27,3 +27,9 @@ and what would be harder?
     但是他们在修改文件的时候不一定会遵循git的commit规则，不一定保存过程文档。我在合并
     各作者的文件时，可能会出现大量的冲突和bug，需要花费非常多的时间来进行文档管理和版本
     控制。因此使用Git和GitHub将极大提升工作效率。
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+    如果是自己的项目，需要试验新功能的时候，可以创建一个分支，在分支上进行试验。
+    如果是合作他人项目，你需要fork到自己的GitHub，这时可以创建一个分支，在分支上进行修改，
+    再向合作人发起pull request。
