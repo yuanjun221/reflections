@@ -1,7 +1,16 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all your work
+local?
     使用远程仓库，可以在不同计算机上传递仓库，提交commit，并允许管理不同开发者来共同合作同一项目。
 
-Why might you want to always pull changes manually rather than having Git automatically 
-stay up-to-date with your remote repository?
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
     因为pull和push针对的是branch。当我不需要一个远程branch的时候，我并不需要它随时和本地的Git
     保持同步，只在需要时pull即可。
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+    forks    -  从其它用户的GitHub的一个仓库克隆一份到自己的仓库
+    clones   -  从自己的GitHub仓库克隆一份到本地计算机，或在本地计算机上制作一个仓库的克隆
+    branches -  一个仓库中的commits分支
+    当我想获取某个其它用户公开仓库的拷贝时，不需要先clone到本地，再push到GitHub，只需从
+    GitHub直接使用fork功能即可。
