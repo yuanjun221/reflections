@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+    使用远程仓库，可以在不同计算机上传递仓库，提交commit，并允许管理不同开发者来共同合作同一项目。
