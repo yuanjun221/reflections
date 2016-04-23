@@ -14,3 +14,8 @@ one instead of another?
     branches -  一个仓库中的commits分支
     当我想获取某个其它用户公开仓库的拷贝时，不需要先clone到本地，再push到GitHub，只需从
     GitHub直接使用fork功能即可。
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+    始终保持本地和远程同步，保证本地内容是最新的。同时，若要进行任何修改，在本地修改后再
+    push即可。
