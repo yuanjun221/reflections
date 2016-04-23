@@ -1,6 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
-    使用远程仓库，可以在不同计算机上传递仓库，提交commit，并允许管理不同开发者来共同合作同一项目。
+    使用远程仓库，可以在不同计算机上传递仓库，提交commit，并允许管理不同开发者来共同合作同一项
+    目。
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
@@ -19,3 +20,10 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
     始终保持本地和远程同步，保证本地内容是最新的。同时，若要进行任何修改，在本地修改后再
     push即可。
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+    如果没有git，我可能会将文件分发到各合作者的邮箱中。每个人将会把修改的文件传回给我，
+    但是他们在修改文件的时候不一定会遵循git的commit规则，不一定保存过程文档。我在合并
+    各作者的文件时，可能会出现大量的冲突和bug，需要花费非常多的时间来进行文档管理和版本
+    控制。因此使用Git和GitHub将极大提升工作效率。
